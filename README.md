@@ -2,7 +2,7 @@
 
 Snippets for LitElement.
 
-![](https://github.com/Victor-Bernabe/litelement-snippets/raw/master/img/header.gif)
+<img src="https://github.com/Victor-Bernabe/litelement-snippets/raw/master/img/header.gif" width="450px" />
 
 ## Installation
 
