@@ -1,0 +1,66 @@
+{
+  "Create Full Featured LitElement Class": {
+    "prefix": "lit-elem",
+    "body": [
+      "import { LitElement, html, css } from 'lit-element';",
+      "",
+      "class ${TM_FILENAME_BASE/([a-z]*)(-)?/${1:/capitalize}/g}  extends LitElement {",
+      "",
+      "  static get styles() {",
+      "    return css`",
+      "      host: {",
+      "        display: block;",
+      "      }",
+      "    `;",
+      "  }",
+      "",
+      "  static get properties() {",
+      "    return {};",
+      "  }",
+      "",
+      "  constructor() {",
+      "    super();",
+      "  }",
+      "",
+      "  render() {",
+      "    return html`",
+      "      $0",
+      "    `;",
+      "  }",
+      "}",
+      "",
+      "customElements.define('${TM_FILENAME_BASE}', ${TM_FILENAME_BASE/([a-z]*)(-)?/${1:/capitalize}/g});"
+    ],
+    "description": "Create Full Featured LitElement Class"
+  },
+  "Create Properties": {
+    "prefix": "lit-prop",
+    "body": [
+      "static get properties() {",
+      "  return {",
+      "    ${1:prop1}: { type: ${2:String} }$0",
+      "  };",
+      "}"
+    ],
+    "description": "Create Properties"
+  },
+  "Create Styles": {
+    "prefix": "lit-styles",
+    "body": [
+      "static get styles() {",
+      "  return css`",
+      "    host: {",
+      "      display: block;",
+      "      $0",
+      "    }",
+      "  `;",
+      "}"
+    ],
+    "description": "Create Styles"
+  },
+  "Create Render": {
+    "prefix": "lit-render",
+    "body": ["render() {", "  return html`", "    $0", "  `;", "}"],
+    "description": "Create Render"
+  }
+}

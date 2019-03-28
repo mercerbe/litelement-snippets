@@ -1,0 +1,30 @@
+{
+  "name": "litelement-snippets",
+  "displayName": "LitElement Snippets",
+  "description": "Snippets for LitElement",
+  "version": "1.0.0",
+  "publisher": "Victorbp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Victor-Bernabe/litelement-snippets.git"
+  },
+  "icon": "img/icon.png",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "bugs": {
+    "url": "https://github.com/Victor-Bernabe/litelement-snippets/issues"
+  },
+  "homepage": "https://github.com/Victor-Bernabe/litelement-snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
