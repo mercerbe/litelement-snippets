@@ -2,7 +2,7 @@
   "name": "litelement-snippets",
   "displayName": "LitElement Snippets",
   "description": "Snippets for LitElement",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "Victorbp",
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
     "snippets": [
       {
         "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/snippets.json"
       }
     ]

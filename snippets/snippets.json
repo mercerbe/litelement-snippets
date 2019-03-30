@@ -62,5 +62,25 @@
     "prefix": "lit-render",
     "body": ["render() {", "  return html`", "    $0", "  `;", "}"],
     "description": "Create Render"
+  },
+  "Create Full Featured LitElement Class with TypeScript": {
+    "prefix": "@lit-elem",
+    "body": [
+      "import {",
+      "  LitElement, html, customElement, property",
+      "} from 'lit-element';",
+      "",
+      "@customElement('${TM_FILENAME_BASE}')",
+      "export class ${TM_FILENAME_BASE/([a-z]*)(-)?/${1:/capitalize}/g} extends LitElement {",
+      "",
+      "  @property()",
+      "  foo = 'foo';",
+      "",
+      "  render(){",
+      "    return html`<p>${this.foo}</p>`;",
+      "  }",
+      "}"
+    ],
+    "description": "Create Full Featured LitElement Class with TypeScript"
   }
 }
