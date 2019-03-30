@@ -16,12 +16,13 @@ Or, Ctrl+P inside VSCode and paste the following code:
 
 Start typing the snippet name and press enter to generate the code.
 
-| Snippet    | Expansion                    |
-| ---------- | ---------------------------- |
-| lit-elem   | Full LitElement class        |
-| lit-prop   | Static getter for properties |
-| lit-styles | Static getter for styles     |
-| lit-render | render function              |
+| Snippet    | Expansion                             |
+| ---------- | ------------------------------------- |
+| lit-elem   | Full LitElement class                 |
+| lit-prop   | Static getter for properties          |
+| lit-styles | Static getter for styles              |
+| lit-render | render function                       |
+| @lit-elem  | Full LitElement class with TypeScript |
 
 ## Built With
 
