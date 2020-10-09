@@ -2,7 +2,7 @@
 
 Snippets for LitElement.
 
-<img src="https://github.com/Victor-Bernabe/litelement-snippets/raw/master/img/header.gif" width="450px" />
+<img src="https://github.com/mercerbe/litelement-snippets/raw/master/img/header.gif" width="450px" />
 
 ## Installation
 
@@ -10,7 +10,9 @@ From VSCode extension panel, look for LitElement Snippets and install.
 
 Or, Ctrl+P inside VSCode and paste the following code:
 
-`ext install Victorbp.litelement-snippets`
+`ext install BenMercer.litelement-snippets`
+
+Forked and modified from the original by Victorbp
 
 ## Usage
 

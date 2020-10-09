@@ -3,10 +3,10 @@
   "displayName": "LitElement Snippets",
   "description": "Snippets for LitElement",
   "version": "1.1.2",
-  "publisher": "Victorbp",
+  "publisher": "BenMercer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Victor-Bernabe/litelement-snippets.git"
+    "url": "https://github.com/mercerbe/litelement-snippets.git"
   },
   "icon": "img/icon.png",
   "engines": {
@@ -16,9 +16,9 @@
     "Snippets"
   ],
   "bugs": {
-    "url": "https://github.com/Victor-Bernabe/litelement-snippets/issues"
+    "url": "https://github.com/mercerbe/litelement-snippets/issues"
   },
-  "homepage": "https://github.com/Victor-Bernabe/litelement-snippets#readme",
+  "homepage": "https://github.com/mercerbe/litelement-snippets#readme",
   "contributes": {
     "snippets": [
       {
